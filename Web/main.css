@@ -1,0 +1,14 @@
+body{
+    font-family: 'Noto Sans TC', sans-serif;
+    background-color: rgba(170, 225, 245, 0.3);
+}
+a {
+    font-size: 1.1em;
+}
+#white {
+    color: white;
+}
+.modify{
+    width: 70%;
+    margin: auto;
+}

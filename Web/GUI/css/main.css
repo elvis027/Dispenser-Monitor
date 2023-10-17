@@ -1,0 +1,43 @@
+div{
+  font-family: 'Noto Sans TC', sans-serif;
+}
+/* #title {
+  text-align: center;
+} */
+#total{
+    width: 30%;
+    border-style: solid;
+    border-width: medium;
+    text-align: center;
+    display: none;
+}
+#chart1, #chart2{
+  display: none;
+}
+.loader {
+    border: 8px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 8px solid #646060;
+    width: 80px;
+    height: 80px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 1s linear infinite;
+    margin-top: 35rem;
+    margin-left: auto;
+    margin-right: auto; 
+    display: block;
+}
+  
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+span{
+    font-size: 1.5rem;
+}

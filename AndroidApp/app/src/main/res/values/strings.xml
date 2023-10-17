@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Alcohol Dispenser Sense</string>
+    <string name="tab_text_1">多日變化統計</string>
+    <string name="tab_text_2">單日時間統計</string>
+    <string name="tab_text_3">原始數據</string>
+
+</resources>
